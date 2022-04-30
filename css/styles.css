@@ -1,0 +1,117 @@
+nav{
+    display: flex;
+    background-color: #B97777;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    font-family: "Nixie One";
+    font-size: 40px;
+}
+
+header{
+    display:flex;
+    font-family: "Bilbo";
+    font-size: 96px;
+    align-items: center;
+    justify-content: center;
+}
+
+.flex{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+navbar{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.items{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+a:hover{
+    font-weight: bold;
+    color:darkblue;
+}
+
+a:focus{
+    background-color: pink;
+}
+
+h1{
+    font-family: "Bilbo";
+    font-size: 96px;
+}
+
+p1{
+    font-family: "Nixie One";
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.box{
+    width: 649px;
+    height: 745px;
+    margin-left: 70px;
+    margin-bottom: 50px;   
+}    
+
+.smallbox{
+    width: 292px; 
+    height: 179px;
+    margin-left: 30px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.mediumbox{
+    width: 295px; 
+    height: 254px;
+}
+
+img{
+    max-width: 100%;
+    max-height: 100%;
+    
+    margin-top: 50px;
+    object-fit: cover;
+}
+
+.red{
+    background-color: #C85959;
+
+}
+
+.skin_color{
+    background-color: #B97777;
+}
+
+footer{
+    background-color: #B97777;
+}
+
+h2{
+    font-family: "Bilbo";
+    font-size: 64px;
+}
+
+p2{
+    font-family: "Nixie One";
+    font-size: 40px;
+}
+
+h3{
+    font-family: "Nixie One";
+    font-size: 40px;
+}
+
+.background_image{
+    background-image: url("../img/pink\ flowers.jpg")
+}
